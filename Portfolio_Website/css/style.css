@@ -1,6 +1,7 @@
 html {
   background-color: #fff;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 }
 
 /* header part */
@@ -164,9 +165,8 @@ header {
   /* background-color: ; */
 }
 
-.contact100-more h1{
+.contact100-more h1 {
   color: white;
-  
 }
 
 .about-me h1 {
@@ -190,7 +190,7 @@ header {
 
 .fa {
   position: relative;
-  font-size: 88px;
+  font-size: 60px;
   color: wheat;
 }
 
@@ -217,7 +217,7 @@ header {
 }
 
 .intro p {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-weight: 300;
   letter-spacing: 1px;
   font-size: 19px;
@@ -225,24 +225,16 @@ header {
   margin: 0 0;
 }
 
-@media screen and (max-width: 800px) {
-  .intro p {
-    font-size: 12px;
-  }
-  .parts {
-    font-size: 15px;
-  }
-}
-
 .intro img {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
 }
 
 .intro-left {
   margin-right: 5%;
-  
+  width: 50%;
+  height: 70%;
 }
 
 .intro-left span {
@@ -288,10 +280,16 @@ header {
 
 @media screen and (max-width: 500px) {
   .dropdown {
-    display: flex;
+    display: block;
+  }
+  .more {
+    display: none;
   }
   .page-btn {
     display: none;
+  }
+  .about-me {
+    height: 50vh;
   }
 }
 

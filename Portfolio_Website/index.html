@@ -16,15 +16,6 @@
   <body>
     <header>
       <div class="navigation-bar">
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#">Home</a>
-                <a href="#">About Me</a>
-                <a href="#">Projects</a>
-                <a href="#">Resume</a>
-            </div>
-        </div>
         <div class="page-btn">
           
           <a class="btn btn-me" href="#about-me">About Me</a>
@@ -33,11 +24,7 @@
           <a class="btn btn-home" href="#contact">Contact</a>
         </div>
         <ul class="social">
-          <li>
-            <a href="#" class="card-icon-link">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
+  
           <li>
             <a href="https://www.linkedin.com/in/jcp18" class="card-icon-link" target="_blank">
               <i class="fab fa-linkedin"></i>
@@ -73,44 +60,38 @@
       <h1 class= 'colorlib-heading animate-box'>About-Me</h1>
       <div class="intro">
         <div class="intro-left">
-          <img src="./css/images/Webp.net-compress-image.jpg" />
-          <span> Hello, I'm </span>
-          <span> Junchen Pan</span>
+          <img src="./css/images/Webp.net-compress-image.jpg"/>
         </div>
-        <p>
-          I developed my interest in computer science mostly after my graduation
-          from University of Washington. I took six programming courses at
-          University, but my major was math, so I didn't have so much time on
-          developing application. After graduation, my sincere enthusiam for
-          computer science drove me to learn more knowledge, and build more
-          interesting applications. My main focus is
-          <strong>Full Stack Development</strong>, I am familiar with
-          <strong>Python/Flask</strong> as backend stack,
-          <strong>Javascript/HTML/CSS</strong> as front end stack. Docker and
-          Git are my lifelong partners, distributed system is the thing I am
-          trying to tackle at right now.
+        <p style="font-size:1.5vw;">
+          Thank you for visiting my page, I am actively looking for <strong>full stack</strong> 
+          or <strong>backend</strong> developer job. I am very familiar with
+          <strong>Python/Flask</strong> as backend stack, I created three backend service
+          project using Flask. Now I am learning <strong>front-end stack</strong> as well, I love learning by doing,
+          this page , for example, was made with HTML/CSS/Javascript. I am currently creating some fun web application using
+          <strong>React</strong>. My final goal is to create a fully functional web application that functions as a snippets 
+          learning and sharing platform. During professional works, I learned <strong>Docker, Git, Bash and Deployment skills</strong>.
         </p>
       </div>
-      <div class="tag">
-        <div class="parts part1">
+      <div class="tag"  >
+        <div class="parts part1" style="font-size:1.5vw;">
           <span>
-            <span id="coding"> 0</span> <br />
+            <span> 5</span> <br />
             Years Coding Experience
         </span>
           <br />
           <i class="fa fa-laptop"></i>
         </div>
-        <div class="parts part2">
+        <div class="parts part2" style="font-size:1.5vw;">
           <span>
-            <span id="analyst">0</span> <br />
+            <span>11</span> <br />
             Personal Application Projects
           </span>
           <br />
           <i class="fa fa-network-wired"></i>
         </div>
-        <div class="parts part3">
+        <div class="parts part3" style="font-size:1.5vw;">
           <span>
-            <span id="web">0</span> <br />
+            <span>6</span> <br />
             Months Working Experience
           </span>
           <br />
@@ -133,16 +114,9 @@
           class="row row-bottom-padded-sm animate-box"
           data-animate-effect="fadeInLeft"
         >
-          <div class="col-md-12">
-            <p class="work-menu">
-              <span><a href="#" class="active">Web Applications</a></span>
-              <span><a href="#">Data Visual&Machine Learning</a></span>
-              <span><a href="#">School Projects</a></span>
-            </p>
-          </div>
         </div>
         <div class="row">
-          <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+          <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="projectOne">
             <div
               class="project"
               style="background-image: url(./css/images/img-1.jpg);"
@@ -238,51 +212,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-            <div
-              class="project"
-              style="background-image: url(./css/images/img-6.jpg);"
-            >
-              <div class="desc">
-                <div class="con">
-                  <h3><a href="work.html">Work 06</a></h3>
-                  <span>Web Design</span>
-                  <p class="icon">
-                    <span
-                      ><a href="#"><i class="icon-share3"></i></a
-                    ></span>
-                  </p>
-                  <h3 class="work-btn1-header"><a class="work-btn1" href="https://github.com/HuskyDanny/Real-Time-Perplexity-Level-Monitoring">See More</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
     </section>
     <footer class="container-contact100" id="contact">
       <div class="wrap-contact100">
         <form class="contact100-form validate-form">
-          <span class="contact100-form-title">
-            Send Me A Message
-          </span>
-  
-          <label class="label-input100" for="email">Enter your email *</label>
-          <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-            <input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
-            <span class="focus-input100"></span>
-          </div>
-  
-          <label class="label-input100" for="message">Message *</label>
-          <div class="wrap-input100 validate-input" data-validate = "Message is required">
-            <textarea id="message" class="input100" name="message" placeholder="Write us a message"></textarea>
-            <span class="focus-input100"></span>
-          </div>
-  
-          <div class="container-contact100-form-btn">
-            <button class="contact100-form-btn">
-              Send Message
-            </button>
-          </div>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdK7UJHjorz4khM-fNQn686cd1FUlSZ0jYEufrYnO3LLbulqw/viewform?embedded=true" width="640" height="611" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </form>
   
         <div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
@@ -331,6 +266,7 @@
   
               <span class="txt3">
                 junchenp1018@gmail.com
+  
               </span>
             </div>
           </div>
@@ -339,8 +275,8 @@
     </footer>  
     <script src="vendor/select2/select2.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
-    <script src="./javascript/jquery.animateNumber.min.js"></script>
+    
+    
     <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -351,6 +287,5 @@
         href="https://fonts.googleapis.com/css?family=Lato:300|Montserrat:100"
         rel="stylesheet"
     />
-    <script src="./javascript/script.js"></script>
   </body>
 </html>
